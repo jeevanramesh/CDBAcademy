@@ -5,8 +5,8 @@ import pandas as pd
 
 class NQueen():
     
-    mutationRate = 0.01
-    totalPopulation = 10
+    mutationRate = 0.2
+    totalPopulation = 100
     crossOver = 0.5
     nQueen = 8
     loop_breaker = 1000
