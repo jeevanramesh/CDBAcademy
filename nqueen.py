@@ -124,7 +124,7 @@ class NQueen():
         while self.loop_breaker > 0:
             probDataFrame=self.crossoverMutation(probDataFrame)
             self.loop_breaker -= 1
-        print(probDataFrame['String'][0])
+        print(probDataFrame)
 
 nqueen=NQueen()
 nqueen.mainFunc()
